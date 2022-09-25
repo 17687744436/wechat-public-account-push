@@ -331,13 +331,9 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    { keyword: 'encourage_oneself', contents: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，要好好的在一起，我会来你的城市找你呀，我们一起生活呀' },
     // 这样配置的话，就会每次随机选一句话发送
-    {
-      keyword: 'lover_prattle',
-      contents: [
-      
-      ],
+   
     }
     // 你可以不断按格式往下增加
     // ...
