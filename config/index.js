@@ -304,7 +304,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 10,
+  FESTIVALS_LIMIT: 20,
 
   /** 日期相关 */
 
@@ -331,7 +331,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    { keyword: 'encourage_oneself', contents: '宝宝，有没有想我呀，我们要永远永远在一起，我们要好好地哟，爱你' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
