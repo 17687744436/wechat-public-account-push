@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，我会来你的城市找你呀，我们一起生活呀',
+  LITERARY_PREFERENCE: '',
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
@@ -92,7 +92,9 @@ const USER_CONFIG = {
         {
           type: '节日', name: '宝宝的生日', year: '2000', date: '06-05',
         }
+      
       ],
+      LITERARY_PREFERENCE: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，我会来你的城市找你呀，我们一起生活呀',
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
