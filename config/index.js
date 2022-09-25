@@ -63,7 +63,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '老婆',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oZ1cv5pEd1j9g7B3HLVw7xpfb2F8',
       // 你想对他发送的模板消息的模板ID
@@ -92,8 +92,29 @@ const USER_CONFIG = {
         },
         {
           type: '节日', name: '宝宝的生日', year: '2000', date: '06-05',
-        }
-        
+        },
+        {
+          type: '节日', name: '元旦节', date: '01-01',
+        },
+        {
+          type: '节日', name: '春节', date: '01-22',
+        },
+        {
+          type: '节日', name: '元宵节', date: '02-05',
+        },
+        {
+          type: '节日', name: '劳动节', date: '05-01',
+        },
+        {
+          type: '节日', name: '儿童节', date: '06-01',
+        },
+        {
+          type: '节日', name: '国庆节', date: '10-01',
+        },
+        {
+          type: '节日', name: '圣诞节', date: '12-25',
+        },
+       
       
       ],
       LITERARY_PREFERENCE: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，我会来你的城市找你呀，我们一起生活呀',
@@ -265,18 +286,15 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
-    },
-    {
-      type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-    },
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
-    },
-    {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-    }
+          type: '节日', name: '在一起纪念日', year: '2016', date: '11-13',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '你家宝贝', year: '2000', date: '11-11',
+        },
+        {
+          type: '节日', name: '宝宝的生日', year: '2000', date: '06-05',
+        }
     // 你可以不断按格式往下增加
     // ...
   ],
