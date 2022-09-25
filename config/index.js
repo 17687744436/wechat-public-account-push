@@ -78,7 +78,7 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: 'https://pro.luka.xingtazhuman.com/pages/index/index?cid=3&tab=1#/',
-      keyword: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，我会来你的城市找你呀，我们一起生活呀',
+      
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -117,7 +117,7 @@ const USER_CONFIG = {
        
       
       ],
-      LITERARY_PREFERENCE: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，我会来你的城市找你呀，我们一起生活呀',
+      LITERARY_PREFERENCE: '',
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
@@ -331,9 +331,16 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '今天又是继续爱你的一天哟，记住哟，我们不要放弃彼此，要好好的在一起，我会来你的城市找你呀，我们一起生活呀' },
+    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
     // 这样配置的话，就会每次随机选一句话发送
-   
+    {
+      keyword: 'lover_prattle',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气'
+      ],
     }
     // 你可以不断按格式往下增加
     // ...
